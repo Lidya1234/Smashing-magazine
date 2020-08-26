@@ -4,6 +4,16 @@
   padding: 0;
 }
 
+:root {
+  --l-gray: gainsboro;
+  --silver: #c0c0c0;
+  --dark-gray: #a9a9a9;
+  --gray: #808080;
+  --blue-gray: #d3d3d3;
+  --green-gray: #696969;
+  --black: #000;
+}
+
 .flex {
   display: flex;
 }
@@ -52,15 +62,32 @@ input {
   font-size: 30px;
   font-weight: bolder;
   width: 100%;
-  margin-top: 30%;
+  padding-top: 20%;
+  padding-bottom: 20%;
+}
+.grid1 {
+  background-color: var(--silver);
+}
+.grid2 {
+  background-color: var(--gray);
+}
+.grid3 {
+  background-color: var(--l-gray);
+}
+.grid4 {
+  background-color: var(--green-gray);
 }
 
 .person {
   transform: rotate(-20deg);
   margin-bottom: 30px;
+  float: left;
 }
 .person:hover {
   transform: rotate(0deg);
+}
+.author {
+  margin-right: 5px;
 }
 
 .comments {
@@ -68,6 +95,7 @@ input {
 }
 .section1-grid-par {
   margin-bottom: 10%;
+  clear: both;
 }
 .User-exp {
   justify-content: space-around;
@@ -98,10 +126,6 @@ input {
   line-height: 2;
 }
 
-.section-3 {
-
-
-}
 .left-1 {
   flex-direction: column;
   align-items: center;
@@ -114,10 +138,10 @@ input {
 .right-1 {
   flex: 1;
   padding-left: 2%;
-  
+  background-color: var(--blue-gray);
 }
 
-.right-1 p{
+.right-1 p {
   margin-top: 20px;
   padding-right: 100px;
   font-size: 18px;
@@ -125,18 +149,17 @@ input {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.right-1 a{
+.right-1 a {
   padding-right: 100px;
   font-weight: bolder;
   color: black;
   font-size: 30px;
 }
 
-.left-1 p{
+.left-1 p {
   margin-top: 20px;
   width: 60%;
   text-align: center;
-  
 }
 
 .left-1-btn {
@@ -145,4 +168,35 @@ input {
   width: 170px;
   border: none;
   border-radius: 10px;
+}
+.section-5 {
+  background-color: var(--black);
+  padding-top: 5%;
+  padding-bottom: 5%;
+  margin: 5%;
+  border-radius: 10px;
+}
+.section-5 h1,
+p {
+  color: white;
+  text-align: center;
+  width: 50%;
+}
+.btn {
+  width: 20%;
+}
+.section-6 {
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.section-6 a {
+  text-decoration: none;
+  color: var(--black);
+}
+hr {
+  width: 200px;
+  margin-left: 42%;
+  margin-top: 10px;
+  color: var(--black);
 }
