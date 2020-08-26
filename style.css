@@ -200,3 +200,36 @@ hr {
   margin-top: 10px;
   color: var(--black);
 }
+
+.section-7 {
+  width: 100%;
+  margin: 0;
+}
+.cat-smash2-img {
+  margin-top: 30px;
+}
+.section-8 {
+  padding-top: 5%;
+  padding-left: 5%;
+  justify-content: space-around;
+  padding-bottom: 5%;
+  background-color: var(--silver);
+}
+
+.section-8 p {
+  color: var(--black);
+  text-align: left;
+  width: 100%;
+  margin-top: 20px;
+  font-size: 20px;
+  padding-right: 5%;
+  word-spacing: 10px;
+  line-height: 25px;
+}
+.person-of-week-img {
+  flex: 1;
+}
+.person-of-week {
+  flex: 3;
+  margin-left: 5%;
+}
