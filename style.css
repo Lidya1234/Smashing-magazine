@@ -124,6 +124,7 @@ input {
   word-spacing: 5px;
   font-family: Arial, Helvetica, sans-serif;
   line-height: 2;
+  width: 100%;
 }
 
 .left-1 {
@@ -232,4 +233,28 @@ hr {
 .person-of-week {
   flex: 3;
   margin-left: 5%;
+}
+.section-9 {
+  margin-top: 10%;
+  margin-left: 10%;
+  grid-template-columns: 1fr 1fr;
+  grid-row-gap: 10%;
+}
+.section-9 p {
+  color: var(--black);
+}
+.section-9 img {
+  flex: 1;
+  width: 30%;
+  height: 30%;
+}
+.grid-des {
+  justify-content: space-around;
+}
+.grid-des1 {
+  flex: 4;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.grid-des1 p {
 }
