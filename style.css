@@ -97,3 +97,52 @@ input {
   font-family: Arial, Helvetica, sans-serif;
   line-height: 2;
 }
+
+.section-3 {
+
+
+}
+.left-1 {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 2;
+  background-color: rgb(66, 66, 66);
+  padding-bottom: 50px;
+}
+
+.right-1 {
+  flex: 1;
+  padding-left: 2%;
+  
+}
+
+.right-1 p{
+  margin-top: 20px;
+  padding-right: 100px;
+  font-size: 18px;
+  line-height: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.right-1 a{
+  padding-right: 100px;
+  font-weight: bolder;
+  color: black;
+  font-size: 30px;
+}
+
+.left-1 p{
+  margin-top: 20px;
+  width: 60%;
+  text-align: center;
+  
+}
+
+.left-1-btn {
+  margin-top: 19px;
+  height: 40px;
+  width: 170px;
+  border: none;
+  border-radius: 10px;
+}
