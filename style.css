@@ -39,3 +39,45 @@ input {
   left: 8px;
   top: 30%;
 }
+
+.section1 {
+  grid-template-columns: 50% 50%;
+  background-color: rgba(128, 128, 128, 0.322);
+  align-items: center;
+  height: 30%;
+}
+
+.section1-grid {
+  padding-left: 20%;
+  font-size: 30px;
+  font-weight: bolder;
+  width: 100%;
+  margin-top: 30%;
+
+  
+}
+
+.person {
+  transform: rotate(-20deg);
+  margin-bottom: 30px;
+}
+ .person:hover {
+   transform: rotate(0deg);
+ }
+
+ .comments {
+   padding-bottom: 50px;
+ }
+ .section1-grid-par {
+   margin-bottom: 10%;
+ }
+ .User-exp {
+   justify-content: space-around;
+   
+
+ }
+
+ .User-exp p{
+  font-size: 20px;
+
+ }
