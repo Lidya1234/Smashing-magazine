@@ -239,22 +239,29 @@ hr {
   margin-left: 10%;
   grid-template-columns: 1fr 1fr;
   grid-row-gap: 10%;
+  margin-bottom: 15%;
 }
-.section-9 p {
+.section-9-grid {
+  padding-bottom: 20%;
+  
+}
+.section-9-text {
+  height: 50%;
+}
+
+.section-9-text p {
   color: var(--black);
+  text-align: left;
+  width: 100%;
+  font-size: 20px;
+  line-height: 25px;
+  word-spacing: 15px;
+  padding-top: 5%;
 }
-.section-9 img {
-  flex: 1;
-  width: 30%;
+
+.section-9-img img{
   height: 30%;
+  width: auto;
 }
-.grid-des {
-  justify-content: space-around;
-}
-.grid-des1 {
-  flex: 4;
-  flex-direction: column;
-  justify-content: space-around;
-}
-.grid-des1 p {
-}
+
+.
