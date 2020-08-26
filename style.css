@@ -236,14 +236,17 @@ hr {
 }
 .section-9 {
   margin-top: 10%;
-  margin-left: 10%;
+  padding-left: 6%;
+  padding-top: 5%;
   grid-template-columns: 1fr 1fr;
-  grid-row-gap: 10%;
-  margin-bottom: 15%;
+  grid-row-gap: 6%;
+  margin-bottom: 5%;
+  background-color: var(--l-gray);
+  height: auto;
+  padding-bottom: 10%;
 }
 .section-9-grid {
   padding-bottom: 20%;
-  
 }
 .section-9-text {
   height: 50%;
@@ -252,16 +255,43 @@ hr {
 .section-9-text p {
   color: var(--black);
   text-align: left;
-  width: 100%;
+  width: 50%;
   font-size: 20px;
   line-height: 25px;
   word-spacing: 15px;
   padding-top: 5%;
 }
 
-.section-9-img img{
+.section-9-img img {
   height: 30%;
   width: auto;
 }
-
-.
+.section-10 {
+  background-color: var(--dark-gray);
+  justify-content: space-between;
+  padding-left: 5%;
+  height: 350px;
+  margin-bottom: 100%;
+}
+.section-10 h1 {
+  line-height: 2;
+  font-size: 25px;
+}
+.section-10 a {
+  color: black;
+}
+.text1 {
+  padding-top: 5%;
+  padding-left: 5%;
+  flex: 2;
+  line-height: 1;
+  font-size: 20px;
+}
+.text2 {
+  flex: 1;
+}
+.book {
+  width: 70%;
+  height: 70%;
+  padding-left: 25%;
+}
