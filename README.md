@@ -2,7 +2,7 @@
 
 First CSS project of Lidya Ghebreigziabher and Nick Kuria
 
-<img src="images/Screenshot_2020-08-27 Smashing Magazine.png" alt="Smashing Magazine Article">
+<img src="images/app-screenshot.png" alt="Smashing Magazine Article">
 
 Additional description about the project and its features.
 
