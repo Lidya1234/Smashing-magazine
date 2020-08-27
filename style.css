@@ -295,8 +295,8 @@ hr {
   height: 70%;
   padding-left: 25%;
 }
- 
-.section-11{
+
+.section-11 {
   grid-template-columns: 1fr 1fr;
   margin-right: 5%;
   font-size: 20px;
@@ -305,10 +305,8 @@ hr {
   padding-left: 2%;
   grid-gap: 50px;
   margin-bottom: 5%;
-  
-  
 }
-.section-11 p{
+.section-11 p {
   color: var(--black);
   text-align: left;
   margin-top: 4%;
@@ -323,7 +321,7 @@ hr {
   margin-top: 2%;
 }
 
-.section-11 button{
+.section-11 button {
   width: 300px;
 }
 .last-grid {
@@ -331,14 +329,44 @@ hr {
   background: var(--dark-gray);
   border-radius: 10px;
   padding: 5%;
- 
 }
 
-.last-grid img{
+.last-grid img {
   margin-left: 30%;
   margin-bottom: 5%;
 }
 
-.last-grid-4{
+.last-grid-4 {
   height: 650px;
+}
+.footer {
+  padding-top: 50px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  background-color: var(--dark-gray);
+}
+.list1 {
+  justify-content: space-around;
+}
+
+.list1 li {
+  margin-left: 35px;
+  font-size: 20px;
+}
+.list1 a {
+  text-decoration: none;
+  color: white;
+}
+.ftr-text {
+  margin-top: 40px;
+}
+.ftr-links {
+  margin-top: 15px;
+}
+.ftr-links a {
+  text-decoration: none;
+  margin-left: 10px;
+  color: white;
 }
