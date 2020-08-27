@@ -29,7 +29,8 @@
   align-items: center;
 }
 
-.navbar a, input {
+.navbar a, 
+input {
   color: white;
   font-weight: bolder;
   font-size: 18px;
@@ -121,6 +122,13 @@
   clear: both;
 }
 
+.section-5 h1,
+ p {
+  color: white;
+  text-align: center;
+  width: 50%;
+}
+
 .User-exp {
   justify-content: space-around;
 }
@@ -206,12 +214,6 @@
   padding-bottom: 5%;
   margin: 5%;
   border-radius: 10px;
-}
-
-.section-5 h1, p {
-  color: white;
-  text-align: center;
-  width: 50%;
 }
 
 .btn {
@@ -348,7 +350,6 @@ hr {
   margin-right: 5%;
   font-size: 20px;
   margin-left: 5%;
-  grid-row-gap: 0px;
   padding-left: 2%;
   grid-gap: 50px;
   margin-bottom: 5%;
