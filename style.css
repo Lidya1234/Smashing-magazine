@@ -55,6 +55,7 @@ input {
   background-color: rgba(128, 128, 128, 0.322);
   align-items: center;
   height: 30%;
+  position: relative;
 }
 
 .section1-grid {
@@ -77,6 +78,18 @@ input {
 .grid4 {
   background-color: var(--green-gray);
 }
+
+.position {
+  position: absolute;
+  top: 100px;
+  right: 500px;
+  width: 400px;
+  text-align: center;
+  background-color: white;
+  font-size: 40px;
+  
+}
+
 
 .person {
   transform: rotate(-20deg);
