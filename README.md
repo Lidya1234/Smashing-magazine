@@ -1,16 +1,16 @@
-# New York Times Article
+# Smashing Magazine
 
-First CSS project of Lidya Ghebreigziabher and Abhigyan Mahanta
+First CSS project of Lidya Ghebreigziabher and Nick Kuria
 
-<img src="images/projectpage.PNG" alt="NewYork_Times_Article">
+<img src="images/app-screenshot.png" alt="Smashing Magazine Article">
 
 Additional description about the project and its features.
 
-This is a project to demonstrate the exisiting knowledge of HTML and CSS. It is a collaborative project which recreates a New York Times article.
+This is a project to demonstrate the existing knowledge of HTML and CSS. It is a collaborative project which recreates a grey scale of the smashing magazine home page.
 
 <i>Built With HTML5, CSS3, GIT, and VSCODE</i>
 
-Live Demo : https://new-york-article.netlify.app/
+Live Demo : https://gallant-swirles-de5171.netlify.app/
 
 <h1>Getting Started</h1>
 
@@ -27,7 +27,7 @@ Github: @Lidya1234 Linkedin: https://www.linkedin.com/in/lidya-ghebreigziabher-4
 
 👤 Author2
 
-Github: @Abhigyan001 Linkedin: https://www.linkedin.com/in/abhigyan-mahanta-b49799145/
+Github: @Nkuria Linkedin: https://www.linkedin.com/in/nick-kuria-a148931a9/
 
 🤝 Contributing Contributions, issues and feature requests are welcome!
 
@@ -37,4 +37,4 @@ Show your support Give a ⭐️ if you like this project!
 
 Acknowledgments Hat tip to anyone whose code was used Inspiration etc
 
-📝 License This project is a collaboration project of microverse students. All rights are reserved for Lidya and Abhigyan.
+📝 License This project is a collaboration project of microverse students. All rights are reserved for Lidya and Nick.
