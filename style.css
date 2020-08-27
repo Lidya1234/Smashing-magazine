@@ -271,7 +271,7 @@ hr {
   justify-content: space-between;
   padding-left: 5%;
   height: 350px;
-  margin-bottom: 100%;
+  margin-bottom: 5%;
 }
 .section-10 h1 {
   line-height: 2;
@@ -294,4 +294,51 @@ hr {
   width: 70%;
   height: 70%;
   padding-left: 25%;
+}
+ 
+.section-11{
+  grid-template-columns: 1fr 1fr;
+  margin-right: 5%;
+  font-size: 20px;
+  margin-left: 5%;
+  grid-row-gap: 0px;
+  padding-left: 2%;
+  grid-gap: 50px;
+  margin-bottom: 5%;
+  
+  
+}
+.section-11 p{
+  color: var(--black);
+  text-align: left;
+  margin-top: 4%;
+  margin-bottom: 4%;
+  line-height: 20px;
+  word-spacing: 5px;
+  width: 100%;
+}
+
+.section-11 h1 {
+  width: 30%;
+  margin-top: 2%;
+}
+
+.section-11 button{
+  width: 300px;
+}
+.last-grid {
+  width: 100%;
+  background: var(--dark-gray);
+  border-radius: 10px;
+  padding: 5%;
+ 
+}
+
+.last-grid img{
+  margin-left: 30%;
+  margin-bottom: 5%;
+}
+
+.last-grid-4{
+  height: 650px;
 }
