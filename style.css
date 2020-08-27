@@ -17,33 +17,38 @@
 .flex {
   display: flex;
 }
+
 .grid {
   display: grid;
 }
+
 .navbar {
   background-color: #3d3232;
   justify-content: space-around;
   height: 80px;
   align-items: center;
 }
-.navbar a,
-input {
+
+.navbar a, input {
   color: white;
   font-weight: bolder;
   font-size: 18px;
   margin-right: 15%;
   text-decoration: none;
 }
+
 .search {
   margin-left: 20%;
   position: relative;
 }
+
 .search-input {
   height: 45px;
   width: 300px;
   border: none;
   border-radius: 10px;
 }
+
 .fa-search {
   position: absolute;
   left: 8px;
@@ -66,15 +71,19 @@ input {
   padding-top: 20%;
   padding-bottom: 20%;
 }
+
 .grid1 {
   background-color: var(--silver);
 }
+
 .grid2 {
   background-color: var(--gray);
 }
+
 .grid3 {
   background-color: var(--l-gray);
 }
+
 .grid4 {
   background-color: var(--green-gray);
 }
@@ -94,9 +103,11 @@ input {
   margin-bottom: 30px;
   float: left;
 }
+
 .person:hover {
   transform: rotate(0deg);
 }
+
 .author {
   margin-right: 5px;
 }
@@ -104,10 +115,12 @@ input {
 .comments {
   padding-bottom: 50px;
 }
+
 .section1-grid-par {
   margin-bottom: 10%;
   clear: both;
 }
+
 .User-exp {
   justify-content: space-around;
 }
@@ -115,21 +128,26 @@ input {
 .User-exp p {
   font-size: 20px;
 }
+
 .section-2 {
   justify-content: space-evenly;
   margin-top: 2%;
   background-color: #ced3dc;
 }
+
 .article {
   padding: 2% 5% 3% 5%;
 }
+
 .article a {
   color: #000;
   font-size: 27px;
 }
+
 .article h1 {
   margin-bottom: 5%;
 }
+
 .article p {
   font-size: 18px;
   word-spacing: 5px;
@@ -181,6 +199,7 @@ input {
   border: none;
   border-radius: 10px;
 }
+
 .section-5 {
   background-color: var(--black);
   padding-top: 5%;
@@ -188,24 +207,28 @@ input {
   margin: 5%;
   border-radius: 10px;
 }
-.section-5 h1,
-p {
+
+.section-5 h1, p {
   color: white;
   text-align: center;
   width: 50%;
 }
+
 .btn {
   width: 20%;
 }
+
 .section-6 {
   text-align: center;
   margin-top: 5%;
   margin-bottom: 5%;
 }
+
 .section-6 a {
   text-decoration: none;
   color: var(--black);
 }
+
 hr {
   width: 200px;
   margin-left: 42%;
@@ -217,9 +240,11 @@ hr {
   width: 100%;
   margin: 0;
 }
+
 .cat-smash2-img {
   margin-top: 30px;
 }
+
 .section-8 {
   padding-top: 5%;
   padding-left: 5%;
@@ -238,13 +263,16 @@ hr {
   word-spacing: 10px;
   line-height: 25px;
 }
+
 .person-of-week-img {
   flex: 1;
 }
+
 .person-of-week {
   flex: 3;
   margin-left: 5%;
 }
+
 .section-9 {
   margin-top: 10%;
   padding-left: 6%;
@@ -256,9 +284,11 @@ hr {
   height: auto;
   padding-bottom: 10%;
 }
+
 .section-9-grid {
   padding-bottom: 20%;
 }
+
 .section-9-text {
   height: 50%;
 }
@@ -277,6 +307,7 @@ hr {
   height: 30%;
   width: auto;
 }
+
 .section-10 {
   background-color: var(--dark-gray);
   justify-content: space-between;
@@ -284,13 +315,16 @@ hr {
   height: 350px;
   margin-bottom: 5%;
 }
+
 .section-10 h1 {
   line-height: 2;
   font-size: 25px;
 }
+
 .section-10 a {
   color: black;
 }
+
 .text1 {
   padding-top: 5%;
   padding-left: 5%;
@@ -298,9 +332,11 @@ hr {
   line-height: 1;
   font-size: 20px;
 }
+
 .text2 {
   flex: 1;
 }
+
 .book {
   width: 70%;
   height: 70%;
@@ -317,6 +353,7 @@ hr {
   grid-gap: 50px;
   margin-bottom: 5%;
 }
+
 .section-11 p {
   color: var(--black);
   text-align: left;
@@ -335,6 +372,7 @@ hr {
 .section-11 button {
   width: 300px;
 }
+
 .last-grid {
   width: 100%;
   background: var(--dark-gray);
@@ -350,6 +388,7 @@ hr {
 .last-grid-4 {
   height: 650px;
 }
+
 .footer {
   padding-top: 50px;
   align-items: center;
@@ -358,6 +397,7 @@ hr {
   height: 100%;
   background-color: var(--dark-gray);
 }
+
 .list1 {
   justify-content: space-around;
 }
@@ -366,16 +406,20 @@ hr {
   margin-left: 35px;
   font-size: 20px;
 }
+
 .list1 a {
   text-decoration: none;
   color: white;
 }
+
 .ftr-text {
   margin-top: 40px;
 }
+
 .ftr-links {
   margin-top: 15px;
 }
+
 .ftr-links a {
   text-decoration: none;
   margin-left: 10px;
