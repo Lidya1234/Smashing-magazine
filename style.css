@@ -74,19 +74,19 @@ input {
 }
 
 .grid1 {
-  background-color: var(--silver);
+  background-color: #383333;
 }
 
 .grid2 {
-  background-color: var(--gray);
+  background-color: #2e2727;
 }
 
 .grid3 {
-  background-color: var(--l-gray);
+  background-color: #2e2727;
 }
 
 .grid4 {
-  background-color: var(--green-gray);
+  background-color:#383333;
 }
 
 .position {
@@ -140,7 +140,7 @@ p {
 .section-2 {
   justify-content: space-evenly;
   margin-top: 2%;
-  background-color: #ced3dc;
+  background-color:var(--dark-gray);
 }
 
 .article {
@@ -209,7 +209,7 @@ p {
 }
 
 .section-5 {
-  background-color: var(--black);
+  background-color: var(--gray);
   padding-top: 5%;
   padding-bottom: 5%;
   margin: 5%;
@@ -366,8 +366,7 @@ hr {
 }
 
 .section-11 h1 {
-  width: 30%;
-  margin-top: 2%;
+ margin-top: 2%;
 }
 
 .section-11 button {
@@ -381,22 +380,13 @@ hr {
   padding: 5%;
 }
 
-.last-grid img {
-  margin-left: 30%;
-  margin-bottom: 5%;
-}
-
-.last-grid-4 {
-  height: 650px;
-}
-
 .footer {
   padding-top: 50px;
   align-items: center;
   flex-direction: column;
   justify-content: space-between;
   height: 100%;
-  background-color: var(--dark-gray);
+  background-color: var(--l-gray);
 }
 
 .list1 {
@@ -410,7 +400,8 @@ hr {
 
 .list1 a {
   text-decoration: none;
-  color: white;
+  color: var(--black);
+  font-weight:bolder;
 }
 
 .ftr-text {
@@ -424,5 +415,6 @@ hr {
 .ftr-links a {
   text-decoration: none;
   margin-left: 10px;
-  color: white;
+  color: var(--black);
+  font-weight:bolder;
 }
